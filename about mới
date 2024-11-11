@@ -1,0 +1,166 @@
+<?php
+
+include 'components/connect.php';
+
+session_start();
+
+if(isset($_SESSION['user_id'])){
+   $user_id = $_SESSION['user_id'];
+}else{
+   $user_id = '';
+};
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<?php include 'components/user_header.php'; ?>
+
+<section class="about">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="project images\boulder-book-store-2022.webp" alt="">
+      </div>
+
+      <div class="content">
+         <h3>BEEBOOK</h3>
+         <p>Nơi Mở Ra Kho Tàng Tri Thức BeeBook là một website bán sách trực tuyến uy tín, chuyên cung cấp các đầu sách chất lượng từ nhiều thể loại như văn học, khoa học, kinh tế, kỹ năng sống, sách thiếu nhi và nhiều hơn nữa. Với phương châm "Đưa sách đến gần hơn với mọi người", BeeBook luôn nỗ lực mang đến những cuốn sách giá trị giúp bạn mở rộng kiến thức và nuôi dưỡng tâm hồn.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<section class="reviews">
+   
+   <h1 class="heading">Đánh Giá Của Độc Giả</h1>
+
+   <div class="swiper reviews-slider">
+
+   <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide">
+         <img src="project images\b96ac3d9fd63ace44d243ba9db992bec.jpg" alt="">
+         <p>"Cây Cam Ngọt của Tôi" là một câu chuyện cảm động về tình bạn, tình yêu gia đình và sự ngây thơ của tuổi thơ. Cuốn sách đã chạm đến trái tim tôi bởi sự gần gũi và đầy xúc cảm. Mỗi trang sách đều khiến tôi suy ngẫm về những năm tháng tuổi thơ của mình.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+         <h3> <a href="https://www.facebook.com/minhanh3152.t/" target="_blank">Hồng Minh</a></h3>
+      </div>
+
+      <div class="swiper-slide slide">
+         <img src="project images\b96ac3d9fd63ace44d243ba9db992bec.jpg" alt="">
+         <p>"Rừng Nauy" là một tác phẩm để lại ấn tượng mạnh mẽ trong lòng tôi với phong cách kể chuyện độc đáo và nội dung sâu sắc. Cuốn sách không chỉ là một câu chuyện tình yêu mà còn mở ra nhiều suy tư về cuộc sống, tuổi trẻ và sự mất mát.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+         <h3><a href="https://www.facebook.com/minhanh3152.t/" target="_blank">Minh Minh</a></h3>
+      </div>
+
+      <div class="swiper-slide slide">
+         <img src="project images\b96ac3d9fd63ace44d243ba9db992bec.jpg" alt="">
+         <p>"Cho Tôi Xin Một Vé Đi Tuổi Thơ" là một hành trình quay lại những ngày tháng hồn nhiên, ngây ngô của tuổi thơ. Mỗi trang sách như dẫn dắt tôi trở về những kỷ niệm đẹp nhất của cuộc đời, nơi mà mọi thứ đều thật giản đơn và trong sáng.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+         <h3><a href="https://www.facebook.com/minhanh3152.t/" target="_blank">Minh Minh Minh</a></h3>
+      </div>
+
+      <div class="swiper-slide slide">
+         <img src="project images\b96ac3d9fd63ace44d243ba9db992bec.jpg" alt="">
+         <p>"Tôi Thấy Hoa Vàng Trên Cỏ Xanh" là một câu chuyện đầy tính nhân văn và đậm chất Việt Nam. Tác phẩm đã mang lại cho tôi những cảm xúc sâu lắng về tình yêu thương gia đình, tình làng xóm và những ký ức tuổi thơ vô cùng tươi đẹp.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+         <h3><a href="https://www.facebook.com/minhanh3152.t/" target="_blank">M M M</a></h3>
+      </div>
+
+      <div class="swiper-slide slide">
+         <img src="project images\b96ac3d9fd63ace44d243ba9db992bec.jpg" alt="">
+         <p>"Nhà Giả Kim" là một cuốn sách truyền cảm hứng, với thông điệp về việc theo đuổi ước mơ và tìm kiếm ý nghĩa cuộc sống. Cuốn sách đã thay đổi cách nhìn của tôi về cuộc sống và khiến tôi thêm tự tin vào hành trình của mình.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+         <h3><a href="https://www.facebook.com/minhanh3152.t/" target="_blank">M M M</a></h3>
+      </div>
+
+   </div>
+
+   <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+
+<?php include 'components/footer.php'; ?>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+
+var swiper = new Swiper(".reviews-slider", {
+   loop:true,
+   spaceBetween: 20,
+   pagination: {
+      el: ".swiper-pagination",
+      clickable:true,
+   },
+   breakpoints: {
+      0: {
+        slidesPerView:1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      991: {
+        slidesPerView: 3,
+      },
+   },
+});
+
+</script>
+
+</body>
+</html>
