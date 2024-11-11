@@ -1,0 +1,36 @@
+<footer class="footer">
+
+   <section class="grid">
+
+      <div class="box">
+         <h3>Truy cập nhanh</h3>
+         <a href="home.php"> <i class="fas fa-angle-right"></i> Trang chủ</a>
+         <a href="about.php"> <i class="fas fa-angle-right"></i> Về chúng tôi</a>
+         <a href="shop.php"> <i class="fas fa-angle-right"></i> Mua hàng</a>
+      </div>
+
+      <div class="box">
+         <h3>Thêm</h3>
+         <a href="user_login.php"> <i class="fas fa-angle-right"></i> Đăng nhập</a>
+         <a href="user_register.php"> <i class="fas fa-angle-right"></i> Đăng ký</a>
+         <a href="cart.php"> <i class="fas fa-angle-right"></i> Giỏ hàng</a>
+         <a href="orders.php"> <i class="fas fa-angle-right"></i> Đơn mua</a>
+      </div>
+
+      <div class="box">
+         <h3>Liên hệ với chúng tôi.</h3>
+         <a href=""><i class="fas fa-phone"></i> 0963450334</a>
+         <a href=""><i class="fas fa-envelope"></i> minhnhichiba.vn</a>
+         <a href=""><i class="fas fa-map-marker-alt"></i> Hà Nội, Việt Nam </a>
+      </div>
+
+      <div class="box">
+         <h3>Theo dõi chúng tôi</h3>
+         <a href="https://www.facebook.com/minhanh3152.t" target="_blank"><i class="fab fa-facebook-f"></i>facebook</a>
+         <a href="https://www.facebook.com/minhanh3152.t" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+         <a href="https://www.facebook.com/minhanh3152.t" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a>
+      </div>
+
+   </section>
+
+</footer>
